@@ -1,0 +1,49 @@
+:root {
+    --mainWhite: #fafffb;
+    --mainGreen: #226403;
+    --mainBlue: #0d2c54;
+    --lightBlue: #00a6ed;
+    --mainBlack: #6b6969;
+}
+
+.max-height {
+    min-height: 100vh;
+}
+
+body {
+    align-items: center;
+    background: url("../images/image1.jfif") center/cover fixed no-repeat;
+    color: var(--mainWhite);
+}
+
+.main-container {
+    align-items: center;
+    border: 0.1rem solid var(--mainWhite);
+    box-shadow: 0 0.5rem 0.5rem rgba(253, 253, 253, 0.9);
+    border-radius: 0.2rem;
+}
+
+#counter {
+    color: var(--mainGreen);
+    font-size: 10rem;
+    color: var(--mainBlack);
+}
+
+.prevBtn,
+.nextBtn, .reset {
+    box-shadow: 0 0.2rem 0.5rem rgba(255, 254, 254, 0.9);
+    background: var(--mainBlue);
+    color: var(--mainWhite);
+}
+
+.prevBtn:hover {
+    background: var(--lightBlue);
+}
+
+.nextBtn:hover {
+    background: var(--lightBlue);
+}
+
+.reset:hover {
+    background: var(--lightBlue) ;
+}
